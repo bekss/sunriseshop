@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% block update_user %}
+    <div class="container">
+        <div class="col-md-5 mx-auto">
+
+         <li class=" text-center fs-3 m-3 list-unstyled text-dark">Изменить профиль</li>
+            <form action="" method="post">
+                {% csrf_token %}
+                <div class="mb-3">
+                    <label for="name" class="form-label">Введите ваше Имя</label>
+                    <input type="text" class="form-control" id="name" name="name" value="{{ update_profile.name}}" >
+                </div>
+                    <div class="mb-3">
+                    <label for="lname" class="form-label">Введите вашу Фамилю</label>
+                    <input type="text" class="form-control" id="lname" name="lname" value="{{ update_profile.lname}}">
+                </div>
+
+                    <div class="mb-3">
+                    <label for="email" class="form-label">Введите вашу Фамилю</label>
+                    <input type="email" class="form-control" id="email" name="email" value="{{ update_profile.email}}">
+                </div>
+
+                <button type="submit" class="btn btn-primary">Сохранить</button>
+            </form>
+     </div>
+    </div>
+{% endblock update_user %}

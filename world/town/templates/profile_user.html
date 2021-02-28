@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block profile %}
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 mx-auto">
+                <ul class="list-group">
+                    <li class=" text-center fs-3 m-3 list-unstyled text-dark">Профиль</li>
+                    <li class="list-group-item">Имя профиля: {{ profile.name }}</li>
+                    <li class="list-group-item">Фамиля профиля: {{ profile.lname }}</li>
+                    <li class="list-group-item">Почта профиля: {{ profile.email }}</li>
+                    <a href="{% url 'update_user' profile.name %}" class="btn btn-danger">Изменить</a>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+{% endblock %}

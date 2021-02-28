@@ -1,0 +1,5 @@
+{% for item in categories %}
+        <li>
+            <a href="{% url 'tovar_info' item.name_category %}">{{ item }}</a>
+        </li>
+{% endfor %}
