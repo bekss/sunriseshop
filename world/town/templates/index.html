@@ -3,19 +3,18 @@
     <div class="container">
             <div class="row">
              {% for tovars in product %}
-                <div class="card col-md-3 m-5" style="width: 18rem;">
+                <div class="card col-md-3 m-5  fs-4" style="width: 18rem;">
                     <p class="text-dark text-center">{{ tovars.name_tovar }}</p>
                     <img src="{{ tovars.image_tovar.url }}" style="height: 130px;width: 170px;" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title text-dark">{{ tovars.name_tovar }}</h5>
                         <p class="card-text text-danger fs-3">{{ tovars.price_tovar }} сом </p>
-                        <a href="#" class="btn btn-primary">В корзину</a>
+                        <a href="#" class="btn btn-primary">В корзину Пока не работает</a>
                     </div>
                 </div>
             {% endfor %}
              </div>
         </div>
-
 {% endblock %}
 
 {% block tovar %}
@@ -23,7 +22,7 @@
             <div class="row">
             {% for tov in tovar_info %}
                 <div class="card col-md-3 m-5" style="width: 18rem;">
-                    <p class="text-dark text-center">{{ tov.name_tovar }}</p>
+                    <p class="text-dark text-center fs-4">{{ tov.name_tovar }}</p>
                     <img src="{{ tov.image_tovar.url }}" style="height: 130px;width: 180px;" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title text-dark">{{ tov.name_tovar }}</h5>

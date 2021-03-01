@@ -6,6 +6,11 @@
             <div class="jumbotron">
                 {% if registered %}
                     <h1 class="text-center">Вы успешно зарегистрированы</h1>
+                     <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark fs-5" href="{% url 'user_login' %}">Login</a>
+                        </li>
+                     </ul>
                 {% else %}
                     <form enctype="multipart/form-data" method="POST">
                         {% csrf_token %}

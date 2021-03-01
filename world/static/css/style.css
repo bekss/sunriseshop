@@ -3,23 +3,6 @@
 nav{
     background-color: #362e2e;
 }
-/*.menu__row {*/
-/*    display: flex;*/
-/*    justify-content: space-between;*/
-/*    align-items: center;*/
-/*}*/
-/*.menu__row ul{*/
-/*    display: flex;*/
-/*    justify-content: space-between;*/
-/*    align-items: center;*/
-/*}*/
-/*.menu__row ul li{*/
-/*    text-transform: uppercase;*/
-/*    font-family: 'Open Sans', sans-serif;*/
-/*    padding: 20px;*/
-/*    list-style: none;*/
-/*    text-decoration: none;*/
-/*}*/
 .tovar {
     display: flex;
     justify-content: center;

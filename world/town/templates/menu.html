@@ -1,5 +1,6 @@
+{% load static %}
 {% for item in categories %}
-        <li>
-            <a href="{% url 'tovar_info' item.name_category %}">{{ item }}</a>
+        <li class="nav-item">
+            <a class="nav-link text-dark fs-5" href="{% url 'tovar_info' item.name_category %}">{{ item }}</a>
         </li>
 {% endfor %}
