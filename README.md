@@ -1,7 +1,7 @@
 # Installation GUIDE sunriseshop
 ### web site for shop sunrise  
 
-#### python < 3.7  
+### 0. python < 3.7  
 ### 1. pip install pipenv  
 ### 2. pipenv shell   
 ### 3. pip install sync
