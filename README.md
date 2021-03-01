@@ -2,9 +2,9 @@
 ### web site for shop sunrise  
 
 #### python < 3.7  
-### pip install pipenv  
-### pip install sync  
-### pipenv shell 
+### 1. pip install pipenv  
+### 2. pipenv shell   
+### 3. pip install sync
 # In Windows Terminal:
 ### cd world 
 ### python manage.py migrate  
