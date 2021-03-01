@@ -12,6 +12,8 @@
 ### python manage.py runserver 
 
 # First must add a Tovars and Category. After that you can use this web site; 
+### Main web page
 ![Web site](https://github.com/bekss/sunriseshop/blob/main/shop.jpg)
+### Registration web page
 ___________________________________________________________________  
 ![Web site](https://github.com/bekss/sunriseshop/blob/main/shop_reg.jpg)
